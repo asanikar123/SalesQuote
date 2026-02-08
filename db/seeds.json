@@ -1,0 +1,19 @@
+{
+  "roles": [
+    { "role": "Software Engineer", "onshoreRate": 120, "offshoreRate": 65 },
+    { "role": "Senior Software Engineer", "onshoreRate": 150, "offshoreRate": 85 },
+    { "role": "Staff Engineer", "onshoreRate": 170, "offshoreRate": 100 },
+    { "role": "Tech Lead", "onshoreRate": 185, "offshoreRate": 110 },
+    { "role": "Engineering Manager", "onshoreRate": 200, "offshoreRate": 120 },
+    { "role": "Product Manager", "onshoreRate": 155, "offshoreRate": 95 },
+    { "role": "Project Manager", "onshoreRate": 145, "offshoreRate": 90 },
+    { "role": "UX/UI Designer", "onshoreRate": 135, "offshoreRate": 80 },
+    { "role": "QA Engineer", "onshoreRate": 110, "offshoreRate": 60 },
+    { "role": "Automation Engineer", "onshoreRate": 130, "offshoreRate": 75 },
+    { "role": "DevOps Engineer", "onshoreRate": 160, "offshoreRate": 95 },
+    { "role": "Data Engineer", "onshoreRate": 165, "offshoreRate": 100 },
+    { "role": "Data Scientist", "onshoreRate": 175, "offshoreRate": 105 },
+    { "role": "Business Analyst", "onshoreRate": 125, "offshoreRate": 70 },
+    { "role": "Solutions Architect", "onshoreRate": 210, "offshoreRate": 130 }
+  ]
+}

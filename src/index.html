@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales Quote Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <p class="eyebrow">Quote Builder</p>
+        <h1>Delivery Roles &amp; Rates</h1>
+        <p class="subhead">
+          Defaults load from seed data. Adjust hours or rates per quote to reflect customer needs.
+        </p>
+      </header>
+
+      <section class="card">
+        <div class="card-header">
+          <h2>Role Mix</h2>
+          <div class="card-actions">
+            <button id="reset-defaults" type="button">Reset to defaults</button>
+          </div>
+        </div>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Role</th>
+                <th>Location</th>
+                <th>Onshore rate (USD/hr)</th>
+                <th>Offshore rate (USD/hr)</th>
+                <th>Planned hours</th>
+                <th>Line total</th>
+              </tr>
+            </thead>
+            <tbody id="roles-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card totals">
+        <div>
+          <h2>Quote Summary</h2>
+          <p class="muted">Totals update automatically as you edit per-quote rates or hours.</p>
+        </div>
+        <div class="totals-grid">
+          <div>
+            <span class="label">Total hours</span>
+            <span id="total-hours">0</span>
+          </div>
+          <div>
+            <span class="label">Estimated total</span>
+            <span id="total-cost">$0</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
